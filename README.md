@@ -6,5 +6,5 @@ This program does four things:
 3. Determines if a digit is centered or not (neural network #2)
 4. Scans over a stitched together image, finds centered digits, and classifies the digit.
 
-The entire process can be viewed below. The code for generating this image can be found in 
+The entire process can be viewed below. The code for generating this image can be found in find-digits.py
 
