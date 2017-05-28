@@ -103,5 +103,6 @@ tf.reset_default_graph()
 with tf.Session(graph = model1) as sess:
     save1()[0].restore(sess, save1()[1])
     feed_dict = {x_1: mnist.test.images, y_1: mnist.test.labels, keep_prob: 1.}
+    file_writer = tf.summary.FileWriter('./logs/3, sess.graph)
     print("Test Accuracy: ", accuracy_1.eval(feed_dict)) #~99.2% accuracy
 tf.reset_default_graph()
